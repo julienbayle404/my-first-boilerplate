@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Next.js TypeScript Tailwind Boilerplate
+Ce projet est un boilerplate configuré avec Next.js, TypeScript, et Tailwind CSS pour démarrer rapidement le développement de nouvelles applications.
 
-## Getting Started
+Fonctionnalités
+Next.js : Framework React pour le rendu côté serveur et le déploiement statique.
+TypeScript : Typage statique pour un développement plus fiable et productif.
+Tailwind CSS : Framework CSS utilitaire pour un style rapide et personnalisable.
+Prérequis
+Node.js 14.0 ou plus
+npm (ou yarn)
+Installation
+Clonez le dépôt :
 
-First, run the development server:
+bash
+Copier le code
+git clone https://github.com/votre-utilisateur/mon-boilerplate-nextjs
+cd mon-boilerplate-nextjs
+Installez les dépendances :
 
-```bash
+bash
+Copier le code
+npm install
+
+# ou
+
+yarn install
+Démarrage du serveur de développement
+Lancez l'application en mode développement avec la commande suivante :
+
+bash
+Copier le code
 npm run dev
-# or
+
+# ou
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ouvrez http://localhost:3000 dans votre navigateur pour voir le résultat.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Structure des Dossiers
+/components : Composants réutilisables de l’application.
+/pages : Pages de l'application, gérées par le système de routage de Next.js.
+/styles : Fichiers de style pour l'application, incluant les configurations de Tailwind.
+/types : Définitions de types TypeScript partagées dans le projet.
+/utils : Fonctions utilitaires pour des tâches communes.
+Configuration Tailwind CSS
+Ce projet utilise Tailwind pour le style. Le fichier de configuration tailwind.config.js permet de personnaliser les couleurs, typographies, et autres options globales.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Utilisation des Variables d’Environnement
+Les variables d'environnement peuvent être définies dans un fichier .env.local à la racine du projet. Utilisez un fichier .env.example pour documenter les variables requises.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Exemple :
 
-## Learn More
+env
+Copier le code
+NEXT_PUBLIC_API_URL=https://api.example.com
+NEXT_PUBLIC_API_KEY=your_api_key_here
+⚠️ Assurez-vous de ne pas inclure le fichier .env.local dans le contrôle de version.
 
-To learn more about Next.js, take a look at the following resources:
+Déploiement
+Le moyen le plus simple de déployer cette application Next.js est d'utiliser la plateforme Vercel qui fournit un hébergement gratuit et une intégration native pour les projets Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Consultez notre documentation de déploiement pour plus de détails.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ressources
+Documentation de Next.js
+Documentation de Tailwind CSS
+Apprendre Next.js - Tutoriel interactif pour Next.js
+Guide TypeScript avec Next.js
+Contribution
+Les contributions sont les bienvenues ! Si vous trouvez des problèmes ou souhaitez proposer des améliorations, n’hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Licence
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
