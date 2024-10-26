@@ -1,5 +1,4 @@
-\`\`\`markdown
-
+````
 # Next.js TypeScript Tailwind Boilerplate
 
 Ce projet est un boilerplate configuré avec **Next.js**, **TypeScript**, et **Tailwind CSS** pour démarrer rapidement le développement de nouvelles applications.
@@ -18,39 +17,39 @@ Ce projet est un boilerplate configuré avec **Next.js**, **TypeScript**, et **T
 ## Installation
 
 1. **Clonez le dépôt** :
-   \`\`\`bash
+   ```bash
    git clone https://github.com/votre-utilisateur/mon-boilerplate-nextjs
    cd mon-boilerplate-nextjs
-   \`\`\`
+````
 
 2. **Installez les dépendances** :
-   \`\`\`bash
+   ```bash
    npm install
    # ou
    yarn install
-   \`\`\`
+   ```
 
 ## Démarrage du serveur de développement
 
 Lancez l'application en mode développement avec la commande suivante :
 
-\`\`\`bash
+```bash
 npm run dev
 
 # ou
 
 yarn dev
-\`\`\`
+```
 
 Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
 ## Structure des Dossiers
 
-- **\`/components\`** : Composants réutilisables de l’application.
-- **\`/pages\`** : Pages de l'application, gérées par le système de routage de Next.js.
-- **\`/styles\`** : Fichiers de style pour l'application, incluant les configurations de Tailwind.
-- **\`/types\`** : Définitions de types TypeScript partagées dans le projet.
-- **\`/utils\`** : Fonctions utilitaires pour des tâches communes.
+- **`/components`** : Composants réutilisables de l’application.
+- **`/pages`** : Pages de l'application, gérées par le système de routage de Next.js.
+- **`/styles`** : Fichiers de style pour l'application, incluant les configurations de Tailwind.
+- **`/types`** : Définitions de types TypeScript partagées dans le projet.
+- **`/utils`** : Fonctions utilitaires pour des tâches communes.
 
 ## Configuration Tailwind CSS
 
@@ -58,16 +57,16 @@ Ce projet utilise Tailwind pour le style. Le fichier de configuration **tailwind
 
 ## Utilisation des Variables d’Environnement
 
-Les variables d'environnement peuvent être définies dans un fichier \`.env.local\` à la racine du projet. Utilisez un fichier \`.env.example\` pour documenter les variables requises.
+Les variables d'environnement peuvent être définies dans un fichier `.env.local` à la racine du projet. Utilisez un fichier `.env.example` pour documenter les variables requises.
 
 **Exemple :**
 
-\`\`\`env
+```env
 NEXT_PUBLIC_API_URL=https://api.example.com
 NEXT_PUBLIC_API_KEY=your_api_key_here
-\`\`\`
+```
 
-> ⚠️ Assurez-vous de ne pas inclure le fichier \`.env.local\` dans le contrôle de version.
+> ⚠️ Assurez-vous de ne pas inclure le fichier `.env.local` dans le contrôle de version.
 
 ## Déploiement
 
@@ -89,4 +88,7 @@ Les contributions sont les bienvenues ! Si vous trouvez des problèmes ou souhai
 ## Licence
 
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
-\`\`\`
+
+```
+
+```
